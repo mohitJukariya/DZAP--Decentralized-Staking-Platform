@@ -1,38 +1,110 @@
 .App {
-  text-align: center;
+  background-color: #a6f2ef;
+  height: 700px;
+  padding-top: 10px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navbar {
+  background-color: aqua;
+  margin-block: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav1 {
+  font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main1 {
+  background: #9df7c4;
+  width: 50%;
+  height: 300px;
+}
+
+.staking-platform {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.box1 {
+  background-color: aqua;
+  height: 230px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+  font-family: Arial, sans-serif; /* Sets the font family */
+  color: #333; /* Sets the text color */
+  text-align: center; /* Centers the text horizontally */
+  line-height: 1.5; /* Sets the line height for better readability */
+  border: 2px solid #000000; /* Adds a border */
+  transition: background-color 0.3s ease; /* Adds a smooth transition effect */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box1:hover {
+  background-color: rgb(178, 157, 236); /* Changes the background color on hover */
+}
+
+
+.box2 {
+  background-color: aqua;
+  height: 230px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+  font-family: Arial, sans-serif; /* Sets the font family */
+  color: #333; /* Sets the text color */
+  text-align: center; /* Centers the text horizontally */
+  line-height: 1.5; /* Sets the line height for better readability */
+  border: 2px solid #000000; /* Adds a border */
+  transition: background-color 0.3s ease; /* Adds a smooth transition effect */
+}
+
+.box2:hover {
+  background-color: rgb(178, 157, 236); /* Changes the background color on hover */
+}
+
+.box3 {
+  background-color: aqua;
+  height: 230px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+  font-family: Arial, sans-serif; /* Sets the font family */
+  color: #333; /* Sets the text color */
+  text-align: center; /* Centers the text horizontally */
+  line-height: 1.5; /* Sets the line height for better readability */
+  border: 2px solid #000000; /* Adds a border */
+  transition: background-color 0.3s ease; /* Adds a smooth transition effect */
+}
+
+.box3:hover {
+  background-color: rgb(178, 157, 236); /* Changes the background color on hover */
+}
+
+.input {
+  border-radius: 4px;
+}
+.button {
+  background-color: #e6ee4d; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: #f4b333; /* Darker Green */
 }

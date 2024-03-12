@@ -1,6 +1,6 @@
 .App {
   background-color: #a6f2ef;
-  height: 700px;
+  height: 100vh;
   padding-top: 10px;
 
 }
@@ -107,4 +107,15 @@
 }
 .button:hover {
   background-color: #f4b333; /* Darker Green */
+}
+
+
+@media (max-width: 750px) {
+  .staking-platform {
+    flex-wrap: wrap !important;
+  }
+  .App {
+    height: 100% !important;
+  }
+  
 }

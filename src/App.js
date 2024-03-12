@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Staking from './Staking.json'
 import Navbar from './components/Navbar'
-import Main from './Main'
+import Main from './components/Main'
 import StakingToken from './tokenABI.json'
 
 const ethers = require('ethers')

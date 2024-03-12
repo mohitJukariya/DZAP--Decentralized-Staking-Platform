@@ -6,9 +6,9 @@ const Navbar = (props) => {
     <div>
       <nav className="navbar container">
         <div className="container-fluid">
-          <a className="nav1 navbar-brand" href="#">
+          <span className="nav1 navbar-brand" >
             DZAPP
-          </a>
+          </span>
 
           <span className="navbar-text">
             {props.address}
